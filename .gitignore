@@ -1,0 +1,19 @@
+# Ignore build artifacts
+/build/
+/dist/
+/target/
+*.log
+*.tmp
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+README.md.in
+src/config.h.in
+update_version.sh
