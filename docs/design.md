@@ -4,6 +4,7 @@
 
 ### Document
 - Text buffer
+- Gap buffer?
 
 ### Cursor
 
@@ -16,3 +17,7 @@
 - Syntax highlighting
 - Resizable window
 - Cursor highlighting
+
+### Testing
+- Barebones testing for now
+- Will implement more in depth testing
