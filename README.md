@@ -1,13 +1,14 @@
 # TextEditor
 
-A text editor built from scratch in C++.
+Version: 0.0.2
 
-**Version:** 0.0.1
+A simple text editor written in C++.
 
 ## Building
 
 ```bash
-mkdir build && cd build
+mkdir build
+cd build
 cmake ..
 make
 ```
@@ -15,8 +16,5 @@ make
 ## Running
 
 ```bash
-./text_editor [filename]
+./text_editor
 ```
-
----
-*Generated from README.md.in - Version 0.0.1*

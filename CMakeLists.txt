@@ -5,9 +5,9 @@ project(TextEditor VERSION 0.0.2)
 set(CMAKE_CXX_STANDARD 20)
 
 # Configure files from templates
-# Configure README if template exists
+# Configure README if template exists (generate in root directory)
 if(EXISTS "${CMAKE_SOURCE_DIR}/README.md.in")
-    configure_file(README.md.in README.md @ONLY)
+    configure_file(README.md.in "${CMAKE_SOURCE_DIR}/README.md" @ONLY)
 endif()
 
 # Always configure config.h as it's required by the application
